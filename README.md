@@ -1,1 +1,1 @@
-# LM-shoppingWebsite-Project
+# LM-shoppingWebsite
