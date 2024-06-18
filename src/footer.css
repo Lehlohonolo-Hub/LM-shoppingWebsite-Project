@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.footer{
+    padding: 30px 40px;
+    width: 100%;
+    background: #ecf2f7;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer .container{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.footer .container .about{
+    padding: 10px;
+    width: 100%;
+    margin-right: 80px;
+}
+
+.footer .container .about .detail .logo{
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.footer .container .about  p{
+    font-size: 17px;
+    color: #1d1d1d;
+    padding: 20px;
+    max-width: 70%;
+}
+
+
+.footer .container .about .icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 18px;
+}
+
+.footer .container .about .icon li{
+    list-style: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.footer .container .about  .icon li:hover{
+    background: #0989ff;
+    color: #fff;
+    font-size: 16px;
+    transform: translateY(-2.5px);
+}
+
+.footer .account{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.footer .account h3{
+    font-size: 32px;
+    color: #010101;
+}
+
+.footer .account ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer .account ul li{
+    margin-top: 5px;
+    color: #010101;
+    font-size: 16px;
+    transition: .5s;
+    cursor: pointer;
+    list-style: none;
+}
+
+.footer .account ul li:hover{
+    color: #0989ff;
+}
+
+/*
+css not working
+*/
+
+.footer .page{
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.footer .page h3{
+    font-size: 32px;
+    color: #010101;
+}
+
+.footer .page ul{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer .page ul li{
+    margin-top: 5px;
+    color: #010101;
+    font-size: 16px;
+    transition: .5s;
+    cursor: pointer;
+    list-style: none;
+}
+
+.acc-pg .footer .page ul li:hover{
+    color: #0989ff;
+}
+
+/*
+ ##### Media Queries Starts Here #####
+*/
+
+@media (max-width:425px){
+    .footer{
+        display: grid;
+    }
+
+    .footer .container{
+        justify-content: center;
+        
+    }
+
+    .footer .container .about{
+        margin-right: 0;
+    }
+
+    .footer .container .about .detail .logo{
+        margin-left: 0;
+        gap: 0;
+        display: grid;
+        text-align: center;
+    }
+
+    .footer .container .about .detail .logo img{
+        justify-self: center;
+    }
+
+    .footer .container .about p{
+        max-width: 100%;
+    }
+
+    .footer .container .about .icon{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .account{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .footer .account ul{
+        margin-left: 0;
+    }
+
+    .footer .page{
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .footer .page ul{
+        margin-left: 0;
+    }
+
+}

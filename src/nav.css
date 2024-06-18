@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+} 
+
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+    
+}
+
+.free .icon{
+    color: #23a7f3;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.free p{
+    margin-left: 10px;
+    color: #f6f6f6;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+.main_header{
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #010f1c;
+    
+}
+
+.main_header .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.main_header .container .logo{
+    padding: 0 20px ;
+}
+
+.main_header .container .search_box{
+  display: flex;
+  justify-content: center;
+  right: -20px;
+  position: relative;
+  width: 100%;
+}
+
+.main_header .container .search_box input{
+    outline: none;
+    padding: 10px 12px;
+    border: 3px solid #010f1c;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.main_header .container .search_box button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+    background: #010f1c;
+    color: #f6f6f6;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    right: 43px;
+}
+
+.main_header .container .search_box button:hover{
+    background: #23a7f3;
+    transition: .5s;
+}
+.main_header .container .icon{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.main_header .container .icon .second_icon{
+    display: flex;
+    gap: 12px;
+}
+
+.main_header .container .icon .account{
+    display: flex;
+    margin-right: 12px;
+}
+
+.main_header .container .icon .account .user_icon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #23a7f3;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.main_header .container .icon .account p{
+    align-items: center;
+    display: flex;
+
+}
+
+
+.main_header .container .icon .second_icon .link{
+    font-size: 20px;
+    cursor: pointer;
+    color: #23a7f3; 
+    display: flex;
+}
+
+
+.header{
+    width: 100%;
+    padding: 20px 30px;
+    position: relative;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .container .nav ul{
+    display: flex;
+    padding: 10px;
+}
+
+.header .container ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header .container ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 00.5s;
+    font-weight: 500;
+    
+}
+
+.header .container ul li .link:hover{
+    color: #23a7f3;
+}
+
+.header .container .auth{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header .container .auth button{
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    padding-top: 10px;
+}
+
+
+/*
+ ##### MEDIA QUERIES STARTS HERE ####
+*/
+
+@media (max-width:1027px){
+    .main_header .container .search_box input{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px){
+    .free {
+        justify-content: center;
+        
+    }
+    .free .icon{
+        font-size: 20px;
+        margin-top: 5px;
+        
+    }
+    .free p{
+        text-align: center;
+        font-size: 10.5px;
+    }
+
+    .main_header{
+        padding: 10px;
+    }
+    .main_header .container{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main_header .container .logo{
+        width: 180px;
+        padding: 8px;
+        justify-self: center;
+    }
+    
+    .main_header .container .search_box input{
+        display: flex;
+        width: 100%;
+    }
+
+    
+
+    .main_header .container .icon{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .main_header .container .icon .second_icon{
+        position: relative;
+    } 
+
+    .header {
+    
+        /*
+        background-image: url("https://media.takealot.com/b/2/cms/p/1292x300/smart/filters:format(jpeg):focal(437x0:866x300)/original_images/3ebd10ef0dbf3d8223c10b3841e7cd1358b9fd3a.png" ) ;
+        */
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .header .container .nav ul{
+        display: grid;
+
+    }
+
+    .header .container .nav ul li{
+        margin-left: 0;
+        padding: 0;
+        padding: 5px;
+    }
+}
+
+@media (max-width:320px){
+    .main_header .container .search_box input{
+        width: 170px;
+        overflow: hidden;
+
+    }
+
+}
