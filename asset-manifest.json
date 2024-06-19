@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LM-shoppingWebsite-Project/static/css/main.923e14f5.css",
+    "main.js": "/LM-shoppingWebsite-Project/static/js/main.6bc6994b.js",
+    "static/js/453.470358f0.chunk.js": "/LM-shoppingWebsite-Project/static/js/453.470358f0.chunk.js",
+    "index.html": "/LM-shoppingWebsite-Project/index.html",
+    "main.923e14f5.css.map": "/LM-shoppingWebsite-Project/static/css/main.923e14f5.css.map",
+    "main.6bc6994b.js.map": "/LM-shoppingWebsite-Project/static/js/main.6bc6994b.js.map",
+    "453.470358f0.chunk.js.map": "/LM-shoppingWebsite-Project/static/js/453.470358f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923e14f5.css",
+    "static/js/main.6bc6994b.js"
+  ]
+}
